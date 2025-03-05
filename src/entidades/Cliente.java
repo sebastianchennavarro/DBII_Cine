@@ -11,7 +11,7 @@ public class Cliente {
     private String telefono;     // Número de teléfono del cliente
     private Integer idMembresia; // ID de la membresía asociada
 
-    // Constructor con todos los campos
+    // Metodo constructor
     public Cliente(int id, String nombre, String apellido, String correo, String telefono, Integer idMembresia) {
         this.id = id;                    // Asigna el ID del cliente
         this.nombre = nombre;            // Asigna el nombre del cliente
